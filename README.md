@@ -1,5 +1,9 @@
-# HelloAngularDeveloper
+# hello-angular-developer
 
+## Summary
+Angular Framework sample project, illustrating the concepts for components, properties, events, and the basics of reactive forms. 
+
+## Framework
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
 
 ## Development server

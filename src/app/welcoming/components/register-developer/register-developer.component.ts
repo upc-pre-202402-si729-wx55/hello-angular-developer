@@ -1,10 +1,12 @@
 import {Component, EventEmitter, Output} from '@angular/core';
-import {FormControl, FormGroup} from "@angular/forms";
+import {FormControl, FormGroup, ReactiveFormsModule} from "@angular/forms";
 
 @Component({
   selector: 'app-register-developer',
   standalone: true,
-  imports: [],
+  imports: [
+    ReactiveFormsModule
+  ],
   templateUrl: './register-developer.component.html',
   styleUrl: './register-developer.component.css'
 })
